@@ -6,7 +6,7 @@ tab-navigator/
 │   ├── popup.css
 │   └── popup.js
 ├── pages/
-│   ├── newtab.html
+│   ├── index.html
 │   ├── newtab.css
 │   └── newtab.js
 └── components/
