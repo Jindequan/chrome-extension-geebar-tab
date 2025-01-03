@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "New Tab Page",
+  "name": "Geebar Tab",
   "version": "1.0",
   "description": "A customizable new tab page",
   "permissions": [
@@ -16,7 +16,7 @@
     "<all_urls>"
   ],
   "chrome_url_overrides": {
-    "newtab": "pages/newtab.html"
+    "newtab": "pages/index.html"
   },
   "web_accessible_resources": [{
     "resources": ["data/sites.json"],
