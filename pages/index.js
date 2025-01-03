@@ -1,8 +1,8 @@
-import { BookmarkManager } from '../components/bookmarks/BookmarkManager.js';
-import { WidgetManager } from '../components/widgets/WidgetManager.js';
-import i18nManager from '../components/common/i18n.js';
-import { ContentManager } from '../components/content/ContentManager.js';
-import { SearchManager } from '../components/search/SearchManager.js';
+import { BookmarkManager } from '/components/bookmarks/BookmarkManager.js';
+import { WidgetManager } from '/components/widgets/WidgetManager.js';
+import i18nManager from '/components/common/i18n.js';
+import { ContentManager } from '/components/content/ContentManager.js';
+import { SearchManager } from '/components/search/SearchManager.js';
 
 class TabNavigator {
     constructor() {

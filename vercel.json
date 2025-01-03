@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/components/(.*)", "dest": "/pages/components/$1" },
+    { "src": "/locales/(.*)", "dest": "/pages/locales/$1" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/pages/$1" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "*" }
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,122 @@
+{
+    "widgets": {
+        "title": "Widgets",
+        "addWidget": "Add Widget",
+        "noWidgets": "No Widgets Available",
+        "confirmRemove": "Are you sure you want to remove this widget?",
+        "collapse": "Collapse",
+        "expand": "Expand",
+        "remove": "Remove",
+        "dragToSort": "Drag to Sort",
+        "settings": "Settings",
+        "calculator": {
+            "title": "Calculator"
+        },
+        "todo": {
+            "title": "Todo List",
+            "addPlaceholder": "Add new todo...",
+            "itemsLeft": "items left",
+            "all": "All",
+            "active": "Active",
+            "completed": "Completed",
+            "clear": "Clear completed",
+            "noTodos": "No todos",
+            "clickToEdit": "Click to edit"
+        },
+        "clock": {
+            "title": "Clock",
+            "weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "today": "Today",
+            "now": "Now"
+        },
+        "weather": {
+            "title": "Weather",
+            "loading": "Loading...",
+            "error": "Failed to fetch weather data",
+            "retry": "Retry",
+            "changeLocation": "Change Location",
+            "searchPlaceholder": "Search city...",
+            "temperature": "Temperature",
+            "feelsLike": "Feels Like",
+            "humidity": "Humidity",
+            "wind": "Wind",
+            "noResults": "No cities found",
+            "pressure": "Pressure",
+            "visibility": "Visibility"
+        },
+        "stock": {
+            "title": "Stocks",
+            "loading": "Loading...",
+            "error": "Failed to fetch data",
+            "retry": "Retry",
+            "addStock": "Add Stock",
+            "addStockTitle": "Add Stock",
+            "inputPlaceholder": "Enter stock code (e.g., AAPL)",
+            "searching": "Searching...",
+            "notFound": "Stock not found",
+            "price": "Price",
+            "change": "Change",
+            "changePercent": "Change %",
+            "volume": "Volume",
+            "high": "High",
+            "low": "Low",
+            "open": "Open",
+            "close": "Close",
+            "market": "Market Cap",
+            "refresh": "Refresh"
+        }
+    },
+    "dialog": {
+        "close": "Close",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+    },
+    "content": {
+        "title": "Content Area",
+        "welcome": "Welcome to New Tab",
+        "dragHint": "Drag widgets here to expand",
+        "views": {
+            "empty": "No content",
+            "loading": "Loading...",
+            "error": "Failed to load"
+        },
+        "pinnedSites": "Pinned Sites",
+        "unpin": "Unpin",
+        "pin": "Pin to Top",
+        "copyright": "© 2025 Geebar Tab. All rights reserved. Developed by {author}"
+    },
+    "common": {
+        "search": "Search...",
+        "loading": "Loading...",
+        "error": "Error occurred",
+        "retry": "Retry",
+        "save": "Save",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "edit": "Edit",
+        "delete": "Delete"
+    },
+    "bookmarks": {
+        "title": "Bookmarks",
+        "noBookmarks": "No bookmarks",
+        "addFolder": "New Folder",
+        "addBookmark": "Add Bookmark",
+        "edit": "Edit",
+        "delete": "Delete",
+        "move": "Move to",
+        "search": "Search bookmarks...",
+        "folderName": "Folder Name",
+        "bookmarkName": "Bookmark Name",
+        "url": "URL"
+    },
+    "crypto": {
+        "title": "Cryptocurrency",
+        "loading": "Loading...",
+        "error": "Failed to fetch data",
+        "retry": "Retry",
+        "volume": "24h Volume",
+        "marketCap": "Market Cap",
+        "price": "Price",
+        "change": "24h Change"
+    }
+} 

@@ -1,0 +1,121 @@
+{
+    "widgets": {
+        "title": "小组件",
+        "addWidget": "添加小组件",
+        "noWidgets": "暂无可用小组件",
+        "confirmRemove": "确定要移除此小组件吗？",
+        "collapse": "折叠",
+        "expand": "展开",
+        "remove": "移除",
+        "dragToSort": "拖动排序",
+        "settings": "设置",
+        "calculator": {
+            "title": "计算器"
+        },
+        "todo": {
+            "title": "待办事项",
+            "addPlaceholder": "添加新待办...",
+            "itemsLeft": "项待办",
+            "all": "全部",
+            "active": "进行中",
+            "completed": "已完成",
+            "clear": "清除已完成",
+            "noTodos": "暂无待办",
+            "clickToEdit": "点击编辑"
+        },
+        "clock": {
+            "title": "时钟",
+            "weekdays": ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"],
+            "today": "今天",
+            "now": "现在"
+        },
+        "weather": {
+            "title": "天气",
+            "loading": "加载中...",
+            "error": "获取天气数据失败",
+            "retry": "重试",
+            "changeLocation": "更改位置",
+            "searchPlaceholder": "搜索城市...",
+            "temperature": "温度",
+            "feelsLike": "体感温度",
+            "humidity": "湿度",
+            "wind": "风速",
+            "noResults": "未找到城市",
+            "pressure": "气压",
+            "visibility": "能见度"
+        },
+        "stock": {
+            "title": "股票",
+            "loading": "加载中...",
+            "error": "获取数据失败",
+            "retry": "重试",
+            "addStock": "添加自选",
+            "addStockTitle": "添加股票",
+            "inputPlaceholder": "输入股票代码（如：600000）",
+            "searching": "正在查询...",
+            "notFound": "未找到该股票",
+            "price": "价格",
+            "change": "涨跌",
+            "changePercent": "涨跌幅",
+            "volume": "成交量",
+            "high": "最高",
+            "low": "最低",
+            "open": "开盘",
+            "close": "收盘",
+            "market": "市值",
+            "refresh": "刷新"
+        }
+    },
+    "dialog": {
+        "close": "关闭",
+        "cancel": "取消",
+        "confirm": "确定"
+    },
+    "content": {
+        "welcome": "欢迎使用新标签页",
+        "dragHint": "将小组件拖放到这里以展开查看",
+        "views": {
+            "empty": "暂无内容",
+            "loading": "加载中...",
+            "error": "加载失败"
+        },
+        "pinnedSites": "固定网站",
+        "unpin": "取消固定",
+        "pin": "固定到顶部",
+        "copyright": "© 2025 Geebar Tab。保留所有权利。由 {author} 开发"
+    },
+    "common": {
+        "search": "搜索...",
+        "loading": "加载中...",
+        "error": "出错了",
+        "retry": "重试",
+        "save": "保存",
+        "cancel": "取消",
+        "confirm": "确定",
+        "edit": "编辑",
+        "delete": "删除"
+    },
+    "bookmarks": {
+        "title": "书签",
+        "noBookmarks": "暂无书签",
+        "addFolder": "新建文件夹",
+        "addBookmark": "添加书签",
+        "edit": "编辑",
+        "delete": "删除",
+        "move": "移动到",
+        "search": "搜索书签...",
+        "folderName": "文件夹名称",
+        "bookmarkName": "书签名称",
+        "url": "网址"
+    },
+    "crypto": {
+        "title": "虚拟货币",
+        "loading": "加载中...",
+        "error": "获取数据失败",
+        "retry": "重试",
+        "volume": "24h成交量",
+        "marketCap": "市值",
+        "price": "价格",
+        "change": "24h涨跌"
+    }
+} 
