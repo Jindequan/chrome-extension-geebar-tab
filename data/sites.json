@@ -1,0 +1,2164 @@
+{
+    "categories": [
+        {
+            "id": "productivity",
+            "name": {
+                "zh-CN": "生产力工具",
+                "en-US": "Productivity Tools",
+                "ja-JP": "生産性ツール"
+            },
+            "sites": [
+                {
+                    "url": "https://www.notion.so",
+                    "title": {
+                        "zh-CN": "Notion",
+                        "en-US": "Notion",
+                        "ja-JP": "Notion"
+                    },
+                    "description": {
+                        "zh-CN": "一体化的笔记和协作平台",
+                        "en-US": "All-in-one workspace",
+                        "ja-JP": "オールインワンワークスペース"
+                    }
+                },
+                {
+                    "url": "https://calendar.google.com",
+                    "title": {
+                        "zh-CN": "Google 日历",
+                        "en-US": "Google Calendar",
+                        "ja-JP": "Google カレンダー"
+                    },
+                    "description": {
+                        "zh-CN": "在线日程管理工具",
+                        "en-US": "Online calendar tool",
+                        "ja-JP": "オンラインカレンダー"
+                    }
+                },
+                {
+                    "url": "https://todoist.com",
+                    "title": {
+                        "zh-CN": "Todoist",
+                        "en-US": "Todoist",
+                        "ja-JP": "Todoist"
+                    },
+                    "description": {
+                        "zh-CN": "任务管理工具",
+                        "en-US": "Task management tool",
+                        "ja-JP": "タスク管理ツール"
+                    }
+                },
+                {
+                    "url": "https://evernote.com",
+                    "title": {
+                        "zh-CN": "印象笔记",
+                        "en-US": "Evernote",
+                        "ja-JP": "Evernote"
+                    },
+                    "description": {
+                        "zh-CN": "笔记和知识管理",
+                        "en-US": "Note-taking app",
+                        "ja-JP": "ノート作成アプリ"
+                    }
+                },
+                {
+                    "url": "https://www.microsoft.com/microsoft-365",
+                    "title": {
+                        "zh-CN": "Microsoft 365",
+                        "en-US": "Microsoft 365",
+                        "ja-JP": "Microsoft 365"
+                    },
+                    "description": {
+                        "zh-CN": "办公套件",
+                        "en-US": "Office suite",
+                        "ja-JP": "オフィススイート"
+                    }
+                },
+                {
+                    "url": "https://trello.com",
+                    "title": {
+                        "zh-CN": "Trello",
+                        "en-US": "Trello",
+                        "ja-JP": "Trello"
+                    },
+                    "description": {
+                        "zh-CN": "项目管理工具",
+                        "en-US": "Project management",
+                        "ja-JP": "プロジェクト管理"
+                    }
+                },
+                {
+                    "url": "https://www.dropbox.com",
+                    "title": {
+                        "zh-CN": "Dropbox",
+                        "en-US": "Dropbox",
+                        "ja-JP": "Dropbox"
+                    },
+                    "description": {
+                        "zh-CN": "云存储服务",
+                        "en-US": "Cloud storage",
+                        "ja-JP": "クラウドストレージ"
+                    }
+                },
+                {
+                    "url": "https://www.google.com/drive",
+                    "title": {
+                        "zh-CN": "Google Drive",
+                        "en-US": "Google Drive",
+                        "ja-JP": "Google ドライブ"
+                    },
+                    "description": {
+                        "zh-CN": "云端存储与协作",
+                        "en-US": "Cloud storage & collaboration",
+                        "ja-JP": "クラウドストレージと共同作業"
+                    }
+                },
+                {
+                    "url": "https://zoom.us",
+                    "title": {
+                        "zh-CN": "Zoom",
+                        "en-US": "Zoom",
+                        "ja-JP": "Zoom"
+                    },
+                    "description": {
+                        "zh-CN": "视频会议工具",
+                        "en-US": "Video conferencing",
+                        "ja-JP": "ビデオ会議"
+                    }
+                },
+                {
+                    "url": "https://slack.com",
+                    "title": {
+                        "zh-CN": "Slack",
+                        "en-US": "Slack",
+                        "ja-JP": "Slack"
+                    },
+                    "description": {
+                        "zh-CN": "团队协作平台",
+                        "en-US": "Team collaboration",
+                        "ja-JP": "チーム協業"
+                    }
+                },
+                {
+                    "url": "https://asana.com",
+                    "title": {
+                        "zh-CN": "Asana",
+                        "en-US": "Asana",
+                        "ja-JP": "Asana"
+                    },
+                    "description": {
+                        "zh-CN": "项目任务管理",
+                        "en-US": "Project management",
+                        "ja-JP": "プロジェクト管理"
+                    }
+                },
+                {
+                    "url": "https://www.microsoft.com/teams",
+                    "title": {
+                        "zh-CN": "Microsoft Teams",
+                        "en-US": "Microsoft Teams",
+                        "ja-JP": "Microsoft Teams"
+                    },
+                    "description": {
+                        "zh-CN": "团队协作工具",
+                        "en-US": "Team collaboration",
+                        "ja-JP": "チーム協業"
+                    }
+                },
+                {
+                    "url": "https://www.grammarly.com",
+                    "title": {
+                        "zh-CN": "Grammarly",
+                        "en-US": "Grammarly",
+                        "ja-JP": "Grammarly"
+                    },
+                    "description": {
+                        "zh-CN": "写作辅助工具",
+                        "en-US": "Writing assistant",
+                        "ja-JP": "ライティングアシスタント"
+                    }
+                },
+                {
+                    "url": "https://www.lastpass.com",
+                    "title": {
+                        "zh-CN": "LastPass",
+                        "en-US": "LastPass",
+                        "ja-JP": "LastPass"
+                    },
+                    "description": {
+                        "zh-CN": "密码管理器",
+                        "en-US": "Password manager",
+                        "ja-JP": "パスワード管理"
+                    }
+                },
+                {
+                    "url": "https://www.rescuetime.com",
+                    "title": {
+                        "zh-CN": "RescueTime",
+                        "en-US": "RescueTime",
+                        "ja-JP": "RescueTime"
+                    },
+                    "description": {
+                        "zh-CN": "时间追踪工具",
+                        "en-US": "Time tracking",
+                        "ja-JP": "時間追跡"
+                    }
+                },
+                {
+                    "url": "https://www.mindmeister.com",
+                    "title": {
+                        "zh-CN": "MindMeister",
+                        "en-US": "MindMeister",
+                        "ja-JP": "MindMeister"
+                    },
+                    "description": {
+                        "zh-CN": "思维导图工具",
+                        "en-US": "Mind mapping",
+                        "ja-JP": "マインドマッピング"
+                    }
+                },
+                {
+                    "url": "https://www.pocket.com",
+                    "title": {
+                        "zh-CN": "Pocket",
+                        "en-US": "Pocket",
+                        "ja-JP": "Pocket"
+                    },
+                    "description": {
+                        "zh-CN": "稍后阅读工具",
+                        "en-US": "Read-it-later app",
+                        "ja-JP": "あとで読むアプリ"
+                    }
+                },
+                {
+                    "url": "https://www.doodle.com",
+                    "title": {
+                        "zh-CN": "Doodle",
+                        "en-US": "Doodle",
+                        "ja-JP": "Doodle"
+                    },
+                    "description": {
+                        "zh-CN": "会议时间协调",
+                        "en-US": "Meeting scheduler",
+                        "ja-JP": "ミーティングスケジューラー"
+                    }
+                },
+                {
+                    "url": "https://www.toggl.com",
+                    "title": {
+                        "zh-CN": "Toggl",
+                        "en-US": "Toggl",
+                        "ja-JP": "Toggl"
+                    },
+                    "description": {
+                        "zh-CN": "时间追踪工具",
+                        "en-US": "Time tracking",
+                        "ja-JP": "時間追跡"
+                    }
+                },
+                {
+                    "url": "https://www.any.do",
+                    "title": {
+                        "zh-CN": "Any.do",
+                        "en-US": "Any.do",
+                        "ja-JP": "Any.do"
+                    },
+                    "description": {
+                        "zh-CN": "待办事项管理",
+                        "en-US": "To-do list manager",
+                        "ja-JP": "ToDoリスト管理"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "development",
+            "name": {
+                "zh-CN": "开发工具",
+                "en-US": "Development Tools",
+                "ja-JP": "開発ツール"
+            },
+            "sites": [
+                {
+                    "url": "https://github.com",
+                    "title": {
+                        "zh-CN": "GitHub",
+                        "en-US": "GitHub",
+                        "ja-JP": "GitHub"
+                    },
+                    "description": {
+                        "zh-CN": "代码托管平台",
+                        "en-US": "Code hosting platform",
+                        "ja-JP": "コードホスティング"
+                    }
+                },
+                {
+                    "url": "https://stackoverflow.com",
+                    "title": {
+                        "zh-CN": "Stack Overflow",
+                        "en-US": "Stack Overflow",
+                        "ja-JP": "Stack Overflow"
+                    },
+                    "description": {
+                        "zh-CN": "程序员问答社区",
+                        "en-US": "Programming Q&A",
+                        "ja-JP": "プログラミングQ&A"
+                    }
+                },
+                {
+                    "url": "https://code.visualstudio.com",
+                    "title": {
+                        "zh-CN": "VS Code",
+                        "en-US": "VS Code",
+                        "ja-JP": "VS Code"
+                    },
+                    "description": {
+                        "zh-CN": "代码编辑器",
+                        "en-US": "Code editor",
+                        "ja-JP": "コードエディタ"
+                    }
+                },
+                {
+                    "url": "https://www.jetbrains.com",
+                    "title": {
+                        "zh-CN": "JetBrains",
+                        "en-US": "JetBrains",
+                        "ja-JP": "JetBrains"
+                    },
+                    "description": {
+                        "zh-CN": "开发工具套件",
+                        "en-US": "Development tools",
+                        "ja-JP": "開発ツール"
+                    }
+                },
+                {
+                    "url": "https://gitlab.com",
+                    "title": {
+                        "zh-CN": "GitLab",
+                        "en-US": "GitLab",
+                        "ja-JP": "GitLab"
+                    },
+                    "description": {
+                        "zh-CN": "DevOps平台",
+                        "en-US": "DevOps platform",
+                        "ja-JP": "DevOpsプラットフォーム"
+                    }
+                },
+                {
+                    "url": "https://bitbucket.org",
+                    "title": {
+                        "zh-CN": "Bitbucket",
+                        "en-US": "Bitbucket",
+                        "ja-JP": "Bitbucket"
+                    },
+                    "description": {
+                        "zh-CN": "代码托管服务",
+                        "en-US": "Code hosting",
+                        "ja-JP": "コードホスティング"
+                    }
+                },
+                {
+                    "url": "https://www.postman.com",
+                    "title": {
+                        "zh-CN": "Postman",
+                        "en-US": "Postman",
+                        "ja-JP": "Postman"
+                    },
+                    "description": {
+                        "zh-CN": "API开发工具",
+                        "en-US": "API development",
+                        "ja-JP": "API開発"
+                    }
+                },
+                {
+                    "url": "https://www.docker.com",
+                    "title": {
+                        "zh-CN": "Docker",
+                        "en-US": "Docker",
+                        "ja-JP": "Docker"
+                    },
+                    "description": {
+                        "zh-CN": "容器化平台",
+                        "en-US": "Containerization",
+                        "ja-JP": "コンテナ化"
+                    }
+                },
+                {
+                    "url": "https://kubernetes.io",
+                    "title": {
+                        "zh-CN": "Kubernetes",
+                        "en-US": "Kubernetes",
+                        "ja-JP": "Kubernetes"
+                    },
+                    "description": {
+                        "zh-CN": "容器编排平台",
+                        "en-US": "Container orchestration",
+                        "ja-JP": "コンテナオーケストレーション"
+                    }
+                },
+                {
+                    "url": "https://aws.amazon.com",
+                    "title": {
+                        "zh-CN": "AWS",
+                        "en-US": "AWS",
+                        "ja-JP": "AWS"
+                    },
+                    "description": {
+                        "zh-CN": "云计算服务",
+                        "en-US": "Cloud computing",
+                        "ja-JP": "クラウドコンピューティング"
+                    }
+                },
+                {
+                    "url": "https://cloud.google.com",
+                    "title": {
+                        "zh-CN": "Google Cloud",
+                        "en-US": "Google Cloud",
+                        "ja-JP": "Google Cloud"
+                    },
+                    "description": {
+                        "zh-CN": "云平台服务",
+                        "en-US": "Cloud platform",
+                        "ja-JP": "クラウドプラットフォーム"
+                    }
+                },
+                {
+                    "url": "https://azure.microsoft.com",
+                    "title": {
+                        "zh-CN": "Azure",
+                        "en-US": "Azure",
+                        "ja-JP": "Azure"
+                    },
+                    "description": {
+                        "zh-CN": "微软云服务",
+                        "en-US": "Microsoft cloud",
+                        "ja-JP": "マイクロソフトクラウド"
+                    }
+                },
+                {
+                    "url": "https://www.heroku.com",
+                    "title": {
+                        "zh-CN": "Heroku",
+                        "en-US": "Heroku",
+                        "ja-JP": "Heroku"
+                    },
+                    "description": {
+                        "zh-CN": "云应用平台",
+                        "en-US": "Cloud platform",
+                        "ja-JP": "クラウドプラットフォーム"
+                    }
+                },
+                {
+                    "url": "https://www.mongodb.com",
+                    "title": {
+                        "zh-CN": "MongoDB",
+                        "en-US": "MongoDB",
+                        "ja-JP": "MongoDB"
+                    },
+                    "description": {
+                        "zh-CN": "NoSQL数据库",
+                        "en-US": "NoSQL database",
+                        "ja-JP": "NoSQLデータベース"
+                    }
+                },
+                {
+                    "url": "https://redis.io",
+                    "title": {
+                        "zh-CN": "Redis",
+                        "en-US": "Redis",
+                        "ja-JP": "Redis"
+                    },
+                    "description": {
+                        "zh-CN": "内存数据库",
+                        "en-US": "In-memory database",
+                        "ja-JP": "インメモリデータベース"
+                    }
+                },
+                {
+                    "url": "https://www.mysql.com",
+                    "title": {
+                        "zh-CN": "MySQL",
+                        "en-US": "MySQL",
+                        "ja-JP": "MySQL"
+                    },
+                    "description": {
+                        "zh-CN": "关系型数据库",
+                        "en-US": "Relational database",
+                        "ja-JP": "リレーショナルデータベース"
+                    }
+                },
+                {
+                    "url": "https://www.postgresql.org",
+                    "title": {
+                        "zh-CN": "PostgreSQL",
+                        "en-US": "PostgreSQL",
+                        "ja-JP": "PostgreSQL"
+                    },
+                    "description": {
+                        "zh-CN": "开源数据库",
+                        "en-US": "Open source database",
+                        "ja-JP": "オープンソースデータベース"
+                    }
+                },
+                {
+                    "url": "https://www.nginx.com",
+                    "title": {
+                        "zh-CN": "Nginx",
+                        "en-US": "Nginx",
+                        "ja-JP": "Nginx"
+                    },
+                    "description": {
+                        "zh-CN": "Web服务器",
+                        "en-US": "Web server",
+                        "ja-JP": "Webサーバー"
+                    }
+                },
+                {
+                    "url": "https://jenkins.io",
+                    "title": {
+                        "zh-CN": "Jenkins",
+                        "en-US": "Jenkins",
+                        "ja-JP": "Jenkins"
+                    },
+                    "description": {
+                        "zh-CN": "持续集成工具",
+                        "en-US": "CI/CD tool",
+                        "ja-JP": "CI/CDツール"
+                    }
+                },
+                {
+                    "url": "https://travis-ci.org",
+                    "title": {
+                        "zh-CN": "Travis CI",
+                        "en-US": "Travis CI",
+                        "ja-JP": "Travis CI"
+                    },
+                    "description": {
+                        "zh-CN": "持续集成服务",
+                        "en-US": "CI service",
+                        "ja-JP": "CI サービス"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "design",
+            "name": {
+                "zh-CN": "设计资源",
+                "en-US": "Design Resources",
+                "ja-JP": "デザインリソース"
+            },
+            "sites": [
+                {
+                    "url": "https://www.figma.com",
+                    "title": {
+                        "zh-CN": "Figma",
+                        "en-US": "Figma",
+                        "ja-JP": "Figma"
+                    },
+                    "description": {
+                        "zh-CN": "在线设计工具",
+                        "en-US": "Online design tool",
+                        "ja-JP": "オンラインデザインツール"
+                    }
+                },
+                {
+                    "url": "https://www.sketch.com",
+                    "title": {
+                        "zh-CN": "Sketch",
+                        "en-US": "Sketch",
+                        "ja-JP": "Sketch"
+                    },
+                    "description": {
+                        "zh-CN": "矢量设计工具",
+                        "en-US": "Vector design tool",
+                        "ja-JP": "ベクターデザインツール"
+                    }
+                },
+                {
+                    "url": "https://www.adobe.com/creativecloud.html",
+                    "title": {
+                        "zh-CN": "Adobe CC",
+                        "en-US": "Adobe CC",
+                        "ja-JP": "Adobe CC"
+                    },
+                    "description": {
+                        "zh-CN": "创意设计套件",
+                        "en-US": "Creative suite",
+                        "ja-JP": "クリエイティブスイート"
+                    }
+                },
+                {
+                    "url": "https://dribbble.com",
+                    "title": {
+                        "zh-CN": "Dribbble",
+                        "en-US": "Dribbble",
+                        "ja-JP": "Dribbble"
+                    },
+                    "description": {
+                        "zh-CN": "设计灵感社区",
+                        "en-US": "Design inspiration",
+                        "ja-JP": "デザインインスピレーション"
+                    }
+                },
+                {
+                    "url": "https://www.behance.net",
+                    "title": {
+                        "zh-CN": "Behance",
+                        "en-US": "Behance",
+                        "ja-JP": "Behance"
+                    },
+                    "description": {
+                        "zh-CN": "创意作品展示平台",
+                        "en-US": "Creative showcase",
+                        "ja-JP": "クリエイティブショーケース"
+                    }
+                },
+                {
+                    "url": "https://www.canva.com",
+                    "title": {
+                        "zh-CN": "Canva",
+                        "en-US": "Canva",
+                        "ja-JP": "Canva"
+                    },
+                    "description": {
+                        "zh-CN": "在线平面设计",
+                        "en-US": "Online graphic design",
+                        "ja-JP": "オンライングラフィックデザイン"
+                    }
+                },
+                {
+                    "url": "https://www.invisionapp.com",
+                    "title": {
+                        "zh-CN": "InVision",
+                        "en-US": "InVision",
+                        "ja-JP": "InVision"
+                    },
+                    "description": {
+                        "zh-CN": "设计协作平台",
+                        "en-US": "Design collaboration",
+                        "ja-JP": "デザイン協業"
+                    }
+                },
+                {
+                    "url": "https://www.framer.com",
+                    "title": {
+                        "zh-CN": "Framer",
+                        "en-US": "Framer",
+                        "ja-JP": "Framer"
+                    },
+                    "description": {
+                        "zh-CN": "交互设计工具",
+                        "en-US": "Interactive design",
+                        "ja-JP": "インタラクティブデザイン"
+                    }
+                },
+                {
+                    "url": "https://www.adobe.com/products/xd.html",
+                    "title": {
+                        "zh-CN": "Adobe XD",
+                        "en-US": "Adobe XD",
+                        "ja-JP": "Adobe XD"
+                    },
+                    "description": {
+                        "zh-CN": "UI/UX设计工具",
+                        "en-US": "UI/UX design tool",
+                        "ja-JP": "UI/UXデザインツール"
+                    }
+                },
+                {
+                    "url": "https://www.adobe.com/products/photoshop.html",
+                    "title": {
+                        "zh-CN": "Photoshop",
+                        "en-US": "Photoshop",
+                        "ja-JP": "Photoshop"
+                    },
+                    "description": {
+                        "zh-CN": "图像处理软件",
+                        "en-US": "Image editing",
+                        "ja-JP": "画像編集"
+                    }
+                },
+                {
+                    "url": "https://www.adobe.com/products/illustrator.html",
+                    "title": {
+                        "zh-CN": "Illustrator",
+                        "en-US": "Illustrator",
+                        "ja-JP": "Illustrator"
+                    },
+                    "description": {
+                        "zh-CN": "矢量图形设计",
+                        "en-US": "Vector graphics",
+                        "ja-JP": "ベクターグラフィックス"
+                    }
+                },
+                {
+                    "url": "https://www.materialui.co",
+                    "title": {
+                        "zh-CN": "Material Design",
+                        "en-US": "Material Design",
+                        "ja-JP": "Material Design"
+                    },
+                    "description": {
+                        "zh-CN": "设计系统指南",
+                        "en-US": "Design system",
+                        "ja-JP": "デザインシステム"
+                    }
+                },
+                {
+                    "url": "https://coolors.co",
+                    "title": {
+                        "zh-CN": "Coolors",
+                        "en-US": "Coolors",
+                        "ja-JP": "Coolors"
+                    },
+                    "description": {
+                        "zh-CN": "配色方案生成器",
+                        "en-US": "Color schemes",
+                        "ja-JP": "カラースキーム"
+                    }
+                },
+                {
+                    "url": "https://www.flaticon.com",
+                    "title": {
+                        "zh-CN": "Flaticon",
+                        "en-US": "Flaticon",
+                        "ja-JP": "Flaticon"
+                    },
+                    "description": {
+                        "zh-CN": "图标资源库",
+                        "en-US": "Icon database",
+                        "ja-JP": "アイコンデータベース"
+                    }
+                },
+                {
+                    "url": "https://unsplash.com",
+                    "title": {
+                        "zh-CN": "Unsplash",
+                        "en-US": "Unsplash",
+                        "ja-JP": "Unsplash"
+                    },
+                    "description": {
+                        "zh-CN": "免费高质量图片",
+                        "en-US": "Free stock photos",
+                        "ja-JP": "無料写真素材"
+                    }
+                },
+                {
+                    "url": "https://www.fonts.google.com",
+                    "title": {
+                        "zh-CN": "Google Fonts",
+                        "en-US": "Google Fonts",
+                        "ja-JP": "Google Fonts"
+                    },
+                    "description": {
+                        "zh-CN": "免费字体库",
+                        "en-US": "Free fonts",
+                        "ja-JP": "無料フォント"
+                    }
+                },
+                {
+                    "url": "https://www.awwwards.com",
+                    "title": {
+                        "zh-CN": "Awwwards",
+                        "en-US": "Awwwards",
+                        "ja-JP": "Awwwards"
+                    },
+                    "description": {
+                        "zh-CN": "网页设计奖项",
+                        "en-US": "Web design awards",
+                        "ja-JP": "ウェブデザイン賞"
+                    }
+                },
+                {
+                    "url": "https://www.designspiration.com",
+                    "title": {
+                        "zh-CN": "Designspiration",
+                        "en-US": "Designspiration",
+                        "ja-JP": "Designspiration"
+                    },
+                    "description": {
+                        "zh-CN": "设计灵感库",
+                        "en-US": "Design inspiration",
+                        "ja-JP": "デザインインスピレーション"
+                    }
+                },
+                {
+                    "url": "https://www.colorzilla.com",
+                    "title": {
+                        "zh-CN": "ColorZilla",
+                        "en-US": "ColorZilla",
+                        "ja-JP": "ColorZilla"
+                    },
+                    "description": {
+                        "zh-CN": "颜色选择工具",
+                        "en-US": "Color picker",
+                        "ja-JP": "カラーピッカー"
+                    }
+                },
+                {
+                    "url": "https://www.sketchappsources.com",
+                    "title": {
+                        "zh-CN": "Sketch App Sources",
+                        "en-US": "Sketch App Sources",
+                        "ja-JP": "Sketch App Sources"
+                    },
+                    "description": {
+                        "zh-CN": "Sketch资源库",
+                        "en-US": "Sketch resources",
+                        "ja-JP": "Sketchリソース"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "education",
+            "name": {
+                "zh-CN": "教育学习",
+                "en-US": "Education",
+                "ja-JP": "教育"
+            },
+            "sites": [
+                {
+                    "url": "https://www.coursera.org",
+                    "title": {
+                        "zh-CN": "Coursera",
+                        "en-US": "Coursera",
+                        "ja-JP": "Coursera"
+                    },
+                    "description": {
+                        "zh-CN": "在线课程平台",
+                        "en-US": "Online courses",
+                        "ja-JP": "オンライン講座"
+                    }
+                },
+                {
+                    "url": "https://www.edx.org",
+                    "title": {
+                        "zh-CN": "edX",
+                        "en-US": "edX",
+                        "ja-JP": "edX"
+                    },
+                    "description": {
+                        "zh-CN": "免费在线课程",
+                        "en-US": "Free online courses",
+                        "ja-JP": "無料オンライン講座"
+                    }
+                },
+                {
+                    "url": "https://www.udemy.com",
+                    "title": {
+                        "zh-CN": "Udemy",
+                        "en-US": "Udemy",
+                        "ja-JP": "Udemy"
+                    },
+                    "description": {
+                        "zh-CN": "技能学习平台",
+                        "en-US": "Skill learning",
+                        "ja-JP": "スキル学習"
+                    }
+                },
+                {
+                    "url": "https://www.khanacademy.org",
+                    "title": {
+                        "zh-CN": "可汗学院",
+                        "en-US": "Khan Academy",
+                        "ja-JP": "カーンアカデミー"
+                    },
+                    "description": {
+                        "zh-CN": "免费教育资源",
+                        "en-US": "Free education",
+                        "ja-JP": "無料教育"
+                    }
+                },
+                {
+                    "url": "https://www.duolingo.com",
+                    "title": {
+                        "zh-CN": "多邻国",
+                        "en-US": "Duolingo",
+                        "ja-JP": "デュオリンゴ"
+                    },
+                    "description": {
+                        "zh-CN": "语言学习平台",
+                        "en-US": "Language learning",
+                        "ja-JP": "語学学習"
+                    }
+                },
+                {
+                    "url": "https://www.codecademy.com",
+                    "title": {
+                        "zh-CN": "Codecademy",
+                        "en-US": "Codecademy",
+                        "ja-JP": "Codecademy"
+                    },
+                    "description": {
+                        "zh-CN": "编程学习平台",
+                        "en-US": "Coding tutorials",
+                        "ja-JP": "プログラミング学習"
+                    }
+                },
+                {
+                    "url": "https://www.brilliant.org",
+                    "title": {
+                        "zh-CN": "Brilliant",
+                        "en-US": "Brilliant",
+                        "ja-JP": "Brilliant"
+                    },
+                    "description": {
+                        "zh-CN": "数理思维学习",
+                        "en-US": "Math & science",
+                        "ja-JP": "数学と科学"
+                    }
+                },
+                {
+                    "url": "https://www.memrise.com",
+                    "title": {
+                        "zh-CN": "Memrise",
+                        "en-US": "Memrise",
+                        "ja-JP": "Memrise"
+                    },
+                    "description": {
+                        "zh-CN": "语言记忆学习",
+                        "en-US": "Language memory",
+                        "ja-JP": "言語記憶"
+                    }
+                },
+                {
+                    "url": "https://www.futurelearn.com",
+                    "title": {
+                        "zh-CN": "FutureLearn",
+                        "en-US": "FutureLearn",
+                        "ja-JP": "FutureLearn"
+                    },
+                    "description": {
+                        "zh-CN": "英国在线教育",
+                        "en-US": "UK online courses",
+                        "ja-JP": "イギリスオンライン講座"
+                    }
+                },
+                {
+                    "url": "https://www.skillshare.com",
+                    "title": {
+                        "zh-CN": "Skillshare",
+                        "en-US": "Skillshare",
+                        "ja-JP": "Skillshare"
+                    },
+                    "description": {
+                        "zh-CN": "创意技能学习",
+                        "en-US": "Creative learning",
+                        "ja-JP": "クリエイティブ学習"
+                    }
+                },
+                {
+                    "url": "https://www.pluralsight.com",
+                    "title": {
+                        "zh-CN": "Pluralsight",
+                        "en-US": "Pluralsight",
+                        "ja-JP": "Pluralsight"
+                    },
+                    "description": {
+                        "zh-CN": "技术培训平台",
+                        "en-US": "Tech training",
+                        "ja-JP": "技術トレーニング"
+                    }
+                },
+                {
+                    "url": "https://www.udacity.com",
+                    "title": {
+                        "zh-CN": "Udacity",
+                        "en-US": "Udacity",
+                        "ja-JP": "Udacity"
+                    },
+                    "description": {
+                        "zh-CN": "职业技能培训",
+                        "en-US": "Career training",
+                        "ja-JP": "キャリアトレーニング"
+                    }
+                },
+                {
+                    "url": "https://www.masterclass.com",
+                    "title": {
+                        "zh-CN": "MasterClass",
+                        "en-US": "MasterClass",
+                        "ja-JP": "MasterClass"
+                    },
+                    "description": {
+                        "zh-CN": "大师课程平台",
+                        "en-US": "Expert courses",
+                        "ja-JP": "エキスパート講座"
+                    }
+                },
+                {
+                    "url": "https://www.lynda.com",
+                    "title": {
+                        "zh-CN": "LinkedIn Learning",
+                        "en-US": "LinkedIn Learning",
+                        "ja-JP": "LinkedIn Learning"
+                    },
+                    "description": {
+                        "zh-CN": "职业技能学习",
+                        "en-US": "Professional learning",
+                        "ja-JP": "プロフェッショナル学習"
+                    }
+                },
+                {
+                    "url": "https://www.datacamp.com",
+                    "title": {
+                        "zh-CN": "DataCamp",
+                        "en-US": "DataCamp",
+                        "ja-JP": "DataCamp"
+                    },
+                    "description": {
+                        "zh-CN": "数据科学学习",
+                        "en-US": "Data science",
+                        "ja-JP": "データサイエンス"
+                    }
+                },
+                {
+                    "url": "https://www.sololearn.com",
+                    "title": {
+                        "zh-CN": "SoloLearn",
+                        "en-US": "SoloLearn",
+                        "ja-JP": "SoloLearn"
+                    },
+                    "description": {
+                        "zh-CN": "编程学习社区",
+                        "en-US": "Coding community",
+                        "ja-JP": "プログラミングコミュニティ"
+                    }
+                },
+                {
+                    "url": "https://www.ted.com",
+                    "title": {
+                        "zh-CN": "TED",
+                        "en-US": "TED",
+                        "ja-JP": "TED"
+                    },
+                    "description": {
+                        "zh-CN": "知识分享平台",
+                        "en-US": "Knowledge sharing",
+                        "ja-JP": "知識共有"
+                    }
+                },
+                {
+                    "url": "https://www.coursesites.com",
+                    "title": {
+                        "zh-CN": "CourseSites",
+                        "en-US": "CourseSites",
+                        "ja-JP": "CourseSites"
+                    },
+                    "description": {
+                        "zh-CN": "在线课程系统",
+                        "en-US": "Online learning system",
+                        "ja-JP": "オンライン学習システム"
+                    }
+                },
+                {
+                    "url": "https://www.alison.com",
+                    "title": {
+                        "zh-CN": "Alison",
+                        "en-US": "Alison",
+                        "ja-JP": "Alison"
+                    },
+                    "description": {
+                        "zh-CN": "免费职业教育",
+                        "en-US": "Free vocational education",
+                        "ja-JP": "無料職業教育"
+                    }
+                },
+                {
+                    "url": "https://www.freecodecamp.org",
+                    "title": {
+                        "zh-CN": "freeCodeCamp",
+                        "en-US": "freeCodeCamp",
+                        "ja-JP": "freeCodeCamp"
+                    },
+                    "description": {
+                        "zh-CN": "免费编程学习",
+                        "en-US": "Free coding",
+                        "ja-JP": "無料プログラミング"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "social",
+            "name": {
+                "zh-CN": "社交媒体",
+                "en-US": "Social Media",
+                "ja-JP": "ソーシャルメディア"
+            },
+            "sites": [
+                {
+                    "url": "https://twitter.com",
+                    "title": {
+                        "zh-CN": "Twitter",
+                        "en-US": "Twitter",
+                        "ja-JP": "Twitter"
+                    },
+                    "description": {
+                        "zh-CN": "实时社交网络",
+                        "en-US": "Real-time social network",
+                        "ja-JP": "リアルタイムSNS"
+                    }
+                },
+                {
+                    "url": "https://www.linkedin.com",
+                    "title": {
+                        "zh-CN": "LinkedIn",
+                        "en-US": "LinkedIn",
+                        "ja-JP": "LinkedIn"
+                    },
+                    "description": {
+                        "zh-CN": "职业社交网络",
+                        "en-US": "Professional network",
+                        "ja-JP": "ビジネスSNS"
+                    }
+                },
+                {
+                    "url": "https://www.facebook.com",
+                    "title": {
+                        "zh-CN": "Facebook",
+                        "en-US": "Facebook",
+                        "ja-JP": "Facebook"
+                    },
+                    "description": {
+                        "zh-CN": "社交网络平台",
+                        "en-US": "Social network",
+                        "ja-JP": "ソーシャルネットワーク"
+                    }
+                },
+                {
+                    "url": "https://www.instagram.com",
+                    "title": {
+                        "zh-CN": "Instagram",
+                        "en-US": "Instagram",
+                        "ja-JP": "Instagram"
+                    },
+                    "description": {
+                        "zh-CN": "图片社交平台",
+                        "en-US": "Photo sharing",
+                        "ja-JP": "写真共有"
+                    }
+                },
+                {
+                    "url": "https://www.pinterest.com",
+                    "title": {
+                        "zh-CN": "Pinterest",
+                        "en-US": "Pinterest",
+                        "ja-JP": "Pinterest"
+                    },
+                    "description": {
+                        "zh-CN": "图片收藏分享",
+                        "en-US": "Visual discovery",
+                        "ja-JP": "ビジュアル発見"
+                    }
+                },
+                {
+                    "url": "https://www.reddit.com",
+                    "title": {
+                        "zh-CN": "Reddit",
+                        "en-US": "Reddit",
+                        "ja-JP": "Reddit"
+                    },
+                    "description": {
+                        "zh-CN": "社交新闻平台",
+                        "en-US": "Social news",
+                        "ja-JP": "ソーシャルニュース"
+                    }
+                },
+                {
+                    "url": "https://www.tumblr.com",
+                    "title": {
+                        "zh-CN": "Tumblr",
+                        "en-US": "Tumblr",
+                        "ja-JP": "Tumblr"
+                    },
+                    "description": {
+                        "zh-CN": "轻博客平台",
+                        "en-US": "Microblogging",
+                        "ja-JP": "マイクロブログ"
+                    }
+                },
+                {
+                    "url": "https://www.snapchat.com",
+                    "title": {
+                        "zh-CN": "Snapchat",
+                        "en-US": "Snapchat",
+                        "ja-JP": "Snapchat"
+                    },
+                    "description": {
+                        "zh-CN": "即时通讯社交",
+                        "en-US": "Instant messaging",
+                        "ja-JP": "インスタントメッセージ"
+                    }
+                },
+                {
+                    "url": "https://www.tiktok.com",
+                    "title": {
+                        "zh-CN": "TikTok",
+                        "en-US": "TikTok",
+                        "ja-JP": "TikTok"
+                    },
+                    "description": {
+                        "zh-CN": "短视频平台",
+                        "en-US": "Short videos",
+                        "ja-JP": "ショート動画"
+                    }
+                },
+                {
+                    "url": "https://www.whatsapp.com",
+                    "title": {
+                        "zh-CN": "WhatsApp",
+                        "en-US": "WhatsApp",
+                        "ja-JP": "WhatsApp"
+                    },
+                    "description": {
+                        "zh-CN": "即时通讯工具",
+                        "en-US": "Messaging app",
+                        "ja-JP": "メッセージアプリ"
+                    }
+                },
+                {
+                    "url": "https://telegram.org",
+                    "title": {
+                        "zh-CN": "Telegram",
+                        "en-US": "Telegram",
+                        "ja-JP": "Telegram"
+                    },
+                    "description": {
+                        "zh-CN": "加密通讯工具",
+                        "en-US": "Encrypted messaging",
+                        "ja-JP": "暗号化メッセージ"
+                    }
+                },
+                {
+                    "url": "https://discord.com",
+                    "title": {
+                        "zh-CN": "Discord",
+                        "en-US": "Discord",
+                        "ja-JP": "Discord"
+                    },
+                    "description": {
+                        "zh-CN": "社群语音聊天",
+                        "en-US": "Community chat",
+                        "ja-JP": "コミュニティチャット"
+                    }
+                },
+                {
+                    "url": "https://www.meetup.com",
+                    "title": {
+                        "zh-CN": "Meetup",
+                        "en-US": "Meetup",
+                        "ja-JP": "Meetup"
+                    },
+                    "description": {
+                        "zh-CN": "兴趣社交平台",
+                        "en-US": "Interest groups",
+                        "ja-JP": "興味グループ"
+                    }
+                },
+                {
+                    "url": "https://www.quora.com",
+                    "title": {
+                        "zh-CN": "Quora",
+                        "en-US": "Quora",
+                        "ja-JP": "Quora"
+                    },
+                    "description": {
+                        "zh-CN": "问答社区",
+                        "en-US": "Q&A community",
+                        "ja-JP": "Q&Aコミュニティ"
+                    }
+                },
+                {
+                    "url": "https://medium.com",
+                    "title": {
+                        "zh-CN": "Medium",
+                        "en-US": "Medium",
+                        "ja-JP": "Medium"
+                    },
+                    "description": {
+                        "zh-CN": "博客发布平台",
+                        "en-US": "Blogging platform",
+                        "ja-JP": "ブログプラットフォーム"
+                    }
+                },
+                {
+                    "url": "https://www.weibo.com",
+                    "title": {
+                        "zh-CN": "微博",
+                        "en-US": "Weibo",
+                        "ja-JP": "Weibo"
+                    },
+                    "description": {
+                        "zh-CN": "中文社交平台",
+                        "en-US": "Chinese social media",
+                        "ja-JP": "中国SNS"
+                    }
+                },
+                {
+                    "url": "https://line.me",
+                    "title": {
+                        "zh-CN": "LINE",
+                        "en-US": "LINE",
+                        "ja-JP": "LINE"
+                    },
+                    "description": {
+                        "zh-CN": "即时通讯应用",
+                        "en-US": "Messaging app",
+                        "ja-JP": "メッセージアプリ"
+                    }
+                },
+                {
+                    "url": "https://www.wechat.com",
+                    "title": {
+                        "zh-CN": "微信",
+                        "en-US": "WeChat",
+                        "ja-JP": "WeChat"
+                    },
+                    "description": {
+                        "zh-CN": "多功能社交平台",
+                        "en-US": "Multi-purpose platform",
+                        "ja-JP": "多機能プラットフォーム"
+                    }
+                },
+                {
+                    "url": "https://www.strava.com",
+                    "title": {
+                        "zh-CN": "Strava",
+                        "en-US": "Strava",
+                        "ja-JP": "Strava"
+                    },
+                    "description": {
+                        "zh-CN": "运动社交平台",
+                        "en-US": "Sports social network",
+                        "ja-JP": "スポーツSNS"
+                    }
+                },
+                {
+                    "url": "https://www.goodreads.com",
+                    "title": {
+                        "zh-CN": "Goodreads",
+                        "en-US": "Goodreads",
+                        "ja-JP": "Goodreads"
+                    },
+                    "description": {
+                        "zh-CN": "读书社交平台",
+                        "en-US": "Book community",
+                        "ja-JP": "読書コミュニティ"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tools",
+            "name": {
+                "zh-CN": "实用工具",
+                "en-US": "Useful Tools",
+                "ja-JP": "便利ツール"
+            },
+            "sites": [
+                {
+                    "url": "https://www.wolframalpha.com",
+                    "title": {
+                        "zh-CN": "Wolfram Alpha",
+                        "en-US": "Wolfram Alpha",
+                        "ja-JP": "Wolfram Alpha"
+                    },
+                    "description": {
+                        "zh-CN": "智能计算引擎",
+                        "en-US": "Computational engine",
+                        "ja-JP": "計算エンジン"
+                    }
+                },
+                {
+                    "url": "https://translate.google.com",
+                    "title": {
+                        "zh-CN": "Google 翻译",
+                        "en-US": "Google Translate",
+                        "ja-JP": "Google 翻訳"
+                    },
+                    "description": {
+                        "zh-CN": "在线翻译工具",
+                        "en-US": "Online translation",
+                        "ja-JP": "オンライン翻訳"
+                    }
+                },
+                {
+                    "url": "https://www.deepl.com",
+                    "title": {
+                        "zh-CN": "DeepL",
+                        "en-US": "DeepL",
+                        "ja-JP": "DeepL"
+                    },
+                    "description": {
+                        "zh-CN": "AI翻译工具",
+                        "en-US": "AI translation",
+                        "ja-JP": "AI翻訳"
+                    }
+                },
+                {
+                    "url": "https://www.speedtest.net",
+                    "title": {
+                        "zh-CN": "Speedtest",
+                        "en-US": "Speedtest",
+                        "ja-JP": "Speedtest"
+                    },
+                    "description": {
+                        "zh-CN": "网速测试工具",
+                        "en-US": "Speed test",
+                        "ja-JP": "速度テスト"
+                    }
+                },
+                {
+                    "url": "https://wetransfer.com",
+                    "title": {
+                        "zh-CN": "WeTransfer",
+                        "en-US": "WeTransfer",
+                        "ja-JP": "WeTransfer"
+                    },
+                    "description": {
+                        "zh-CN": "文件传输服务",
+                        "en-US": "File transfer",
+                        "ja-JP": "ファイル転送"
+                    }
+                },
+                {
+                    "url": "https://www.timeanddate.com",
+                    "title": {
+                        "zh-CN": "Time and Date",
+                        "en-US": "Time and Date",
+                        "ja-JP": "Time and Date"
+                    },
+                    "description": {
+                        "zh-CN": "时间日期工具",
+                        "en-US": "Time tools",
+                        "ja-JP": "時間ツール"
+                    }
+                },
+                {
+                    "url": "https://www.calculator.net",
+                    "title": {
+                        "zh-CN": "Calculator.net",
+                        "en-US": "Calculator.net",
+                        "ja-JP": "Calculator.net"
+                    },
+                    "description": {
+                        "zh-CN": "在线计算器",
+                        "en-US": "Online calculator",
+                        "ja-JP": "オンライン計算機"
+                    }
+                },
+                {
+                    "url": "https://www.ilovepdf.com",
+                    "title": {
+                        "zh-CN": "iLovePDF",
+                        "en-US": "iLovePDF",
+                        "ja-JP": "iLovePDF"
+                    },
+                    "description": {
+                        "zh-CN": "PDF处理工具",
+                        "en-US": "PDF tools",
+                        "ja-JP": "PDFツール"
+                    }
+                },
+                {
+                    "url": "https://www.photopea.com",
+                    "title": {
+                        "zh-CN": "Photopea",
+                        "en-US": "Photopea",
+                        "ja-JP": "Photopea"
+                    },
+                    "description": {
+                        "zh-CN": "在线图片编辑",
+                        "en-US": "Online photo editor",
+                        "ja-JP": "オンライン画像編集"
+                    }
+                },
+                {
+                    "url": "https://www.draw.io",
+                    "title": {
+                        "zh-CN": "draw.io",
+                        "en-US": "draw.io",
+                        "ja-JP": "draw.io"
+                    },
+                    "description": {
+                        "zh-CN": "在线绘图工具",
+                        "en-US": "Online diagrams",
+                        "ja-JP": "オンライン作図"
+                    }
+                },
+                {
+                    "url": "https://www.virustotal.com",
+                    "title": {
+                        "zh-CN": "VirusTotal",
+                        "en-US": "VirusTotal",
+                        "ja-JP": "VirusTotal"
+                    },
+                    "description": {
+                        "zh-CN": "病毒扫描工具",
+                        "en-US": "Virus scanner",
+                        "ja-JP": "ウイルススキャン"
+                    }
+                },
+                {
+                    "url": "https://www.typing.com",
+                    "title": {
+                        "zh-CN": "Typing.com",
+                        "en-US": "Typing.com",
+                        "ja-JP": "Typing.com"
+                    },
+                    "description": {
+                        "zh-CN": "打字练习工具",
+                        "en-US": "Typing practice",
+                        "ja-JP": "タイピング練習"
+                    }
+                },
+                {
+                    "url": "https://www.similarweb.com",
+                    "title": {
+                        "zh-CN": "SimilarWeb",
+                        "en-US": "SimilarWeb",
+                        "ja-JP": "SimilarWeb"
+                    },
+                    "description": {
+                        "zh-CN": "网站分析工具",
+                        "en-US": "Website analytics",
+                        "ja-JP": "ウェブ分析"
+                    }
+                },
+                {
+                    "url": "https://www.downforeveryoneorjustme.com",
+                    "title": {
+                        "zh-CN": "Down for Everyone?",
+                        "en-US": "Down for Everyone?",
+                        "ja-JP": "Down for Everyone?"
+                    },
+                    "description": {
+                        "zh-CN": "网站状态检查",
+                        "en-US": "Website checker",
+                        "ja-JP": "サイト状態確認"
+                    }
+                },
+                {
+                    "url": "https://www.random.org",
+                    "title": {
+                        "zh-CN": "Random.org",
+                        "en-US": "Random.org",
+                        "ja-JP": "Random.org"
+                    },
+                    "description": {
+                        "zh-CN": "随机数生成器",
+                        "en-US": "Random generator",
+                        "ja-JP": "ランダム生成"
+                    }
+                },
+                {
+                    "url": "https://www.convertunits.com",
+                    "title": {
+                        "zh-CN": "Convert Units",
+                        "en-US": "Convert Units",
+                        "ja-JP": "Convert Units"
+                    },
+                    "description": {
+                        "zh-CN": "单位换算工具",
+                        "en-US": "Unit converter",
+                        "ja-JP": "単位変換"
+                    }
+                },
+                {
+                    "url": "https://www.onlineocr.net",
+                    "title": {
+                        "zh-CN": "Online OCR",
+                        "en-US": "Online OCR",
+                        "ja-JP": "Online OCR"
+                    },
+                    "description": {
+                        "zh-CN": "文字识别工具",
+                        "en-US": "Text recognition",
+                        "ja-JP": "文字認識"
+                    }
+                },
+                {
+                    "url": "https://www.privnote.com",
+                    "title": {
+                        "zh-CN": "Privnote",
+                        "en-US": "Privnote",
+                        "ja-JP": "Privnote"
+                    },
+                    "description": {
+                        "zh-CN": "阅后即焚笔记",
+                        "en-US": "Self-destructing notes",
+                        "ja-JP": "自動消去メモ"
+                    }
+                },
+                {
+                    "url": "https://www.qrcode-monkey.com",
+                    "title": {
+                        "zh-CN": "QR Code Monkey",
+                        "en-US": "QR Code Monkey",
+                        "ja-JP": "QR Code Monkey"
+                    },
+                    "description": {
+                        "zh-CN": "二维码生成器",
+                        "en-US": "QR code generator",
+                        "ja-JP": "QRコード生成"
+                    }
+                },
+                {
+                    "url": "https://www.remove.bg",
+                    "title": {
+                        "zh-CN": "remove.bg",
+                        "en-US": "remove.bg",
+                        "ja-JP": "remove.bg"
+                    },
+                    "description": {
+                        "zh-CN": "图片背景消除",
+                        "en-US": "Background remover",
+                        "ja-JP": "背景削除"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "entertainment",
+            "name": {
+                "zh-CN": "娱乐",
+                "en-US": "Entertainment",
+                "ja-JP": "エンターテイメント"
+            },
+            "sites": [
+                {
+                    "url": "https://www.youtube.com",
+                    "title": {
+                        "zh-CN": "YouTube",
+                        "en-US": "YouTube",
+                        "ja-JP": "YouTube"
+                    },
+                    "description": {
+                        "zh-CN": "视频分享平台",
+                        "en-US": "Video sharing",
+                        "ja-JP": "動画共有"
+                    }
+                },
+                {
+                    "url": "https://www.netflix.com",
+                    "title": {
+                        "zh-CN": "Netflix",
+                        "en-US": "Netflix",
+                        "ja-JP": "Netflix"
+                    },
+                    "description": {
+                        "zh-CN": "流媒体平台",
+                        "en-US": "Streaming platform",
+                        "ja-JP": "ストリーミング"
+                    }
+                },
+                {
+                    "url": "https://www.spotify.com",
+                    "title": {
+                        "zh-CN": "Spotify",
+                        "en-US": "Spotify",
+                        "ja-JP": "Spotify"
+                    },
+                    "description": {
+                        "zh-CN": "音乐流媒体",
+                        "en-US": "Music streaming",
+                        "ja-JP": "音楽ストリーミング"
+                    }
+                },
+                {
+                    "url": "https://www.twitch.tv",
+                    "title": {
+                        "zh-CN": "Twitch",
+                        "en-US": "Twitch",
+                        "ja-JP": "Twitch"
+                    },
+                    "description": {
+                        "zh-CN": "直播平台",
+                        "en-US": "Live streaming",
+                        "ja-JP": "ライブ配信"
+                    }
+                },
+                {
+                    "url": "https://www.disneyplus.com",
+                    "title": {
+                        "zh-CN": "Disney+",
+                        "en-US": "Disney+",
+                        "ja-JP": "Disney+"
+                    },
+                    "description": {
+                        "zh-CN": "迪士尼流媒体",
+                        "en-US": "Disney streaming",
+                        "ja-JP": "ディズニー配信"
+                    }
+                },
+                {
+                    "url": "https://www.hulu.com",
+                    "title": {
+                        "zh-CN": "Hulu",
+                        "en-US": "Hulu",
+                        "ja-JP": "Hulu"
+                    },
+                    "description": {
+                        "zh-CN": "视频流媒体",
+                        "en-US": "Video streaming",
+                        "ja-JP": "動画配信"
+                    }
+                },
+                {
+                    "url": "https://www.primevideo.com",
+                    "title": {
+                        "zh-CN": "Prime Video",
+                        "en-US": "Prime Video",
+                        "ja-JP": "Prime Video"
+                    },
+                    "description": {
+                        "zh-CN": "亚马逊视频",
+                        "en-US": "Amazon streaming",
+                        "ja-JP": "アマゾン配信"
+                    }
+                },
+                {
+                    "url": "https://www.crunchyroll.com",
+                    "title": {
+                        "zh-CN": "Crunchyroll",
+                        "en-US": "Crunchyroll",
+                        "ja-JP": "Crunchyroll"
+                    },
+                    "description": {
+                        "zh-CN": "动画流媒体",
+                        "en-US": "Anime streaming",
+                        "ja-JP": "アニメ配信"
+                    }
+                },
+                {
+                    "url": "https://www.pandora.com",
+                    "title": {
+                        "zh-CN": "Pandora",
+                        "en-US": "Pandora",
+                        "ja-JP": "Pandora"
+                    },
+                    "description": {
+                        "zh-CN": "音乐电台",
+                        "en-US": "Music radio",
+                        "ja-JP": "音楽ラジオ"
+                    }
+                },
+                {
+                    "url": "https://soundcloud.com",
+                    "title": {
+                        "zh-CN": "SoundCloud",
+                        "en-US": "SoundCloud",
+                        "ja-JP": "SoundCloud"
+                    },
+                    "description": {
+                        "zh-CN": "音乐分享平台",
+                        "en-US": "Music sharing",
+                        "ja-JP": "音楽共有"
+                    }
+                },
+                {
+                    "url": "https://www.imdb.com",
+                    "title": {
+                        "zh-CN": "IMDb",
+                        "en-US": "IMDb",
+                        "ja-JP": "IMDb"
+                    },
+                    "description": {
+                        "zh-CN": "影视数据库",
+                        "en-US": "Movie database",
+                        "ja-JP": "映画データベース"
+                    }
+                },
+                {
+                    "url": "https://www.rottentomatoes.com",
+                    "title": {
+                        "zh-CN": "Rotten Tomatoes",
+                        "en-US": "Rotten Tomatoes",
+                        "ja-JP": "Rotten Tomatoes"
+                    },
+                    "description": {
+                        "zh-CN": "影评网站",
+                        "en-US": "Movie reviews",
+                        "ja-JP": "映画レビュー"
+                    }
+                },
+                {
+                    "url": "https://www.vimeo.com",
+                    "title": {
+                        "zh-CN": "Vimeo",
+                        "en-US": "Vimeo",
+                        "ja-JP": "Vimeo"
+                    },
+                    "description": {
+                        "zh-CN": "创意视频平台",
+                        "en-US": "Creative videos",
+                        "ja-JP": "クリエイティブ動画"
+                    }
+                },
+                {
+                    "url": "https://www.dailymotion.com",
+                    "title": {
+                        "zh-CN": "Dailymotion",
+                        "en-US": "Dailymotion",
+                        "ja-JP": "Dailymotion"
+                    },
+                    "description": {
+                        "zh-CN": "视频分享网站",
+                        "en-US": "Video sharing",
+                        "ja-JP": "動画共有"
+                    }
+                },
+                {
+                    "url": "https://www.last.fm",
+                    "title": {
+                        "zh-CN": "Last.fm",
+                        "en-US": "Last.fm",
+                        "ja-JP": "Last.fm"
+                    },
+                    "description": {
+                        "zh-CN": "音乐社区",
+                        "en-US": "Music community",
+                        "ja-JP": "音楽コミュニティ"
+                    }
+                },
+                {
+                    "url": "https://www.deezer.com",
+                    "title": {
+                        "zh-CN": "Deezer",
+                        "en-US": "Deezer",
+                        "ja-JP": "Deezer"
+                    },
+                    "description": {
+                        "zh-CN": "音乐流媒体",
+                        "en-US": "Music streaming",
+                        "ja-JP": "音楽ストリーミング"
+                    }
+                },
+                {
+                    "url": "https://www.funimation.com",
+                    "title": {
+                        "zh-CN": "Funimation",
+                        "en-US": "Funimation",
+                        "ja-JP": "Funimation"
+                    },
+                    "description": {
+                        "zh-CN": "动画流媒体",
+                        "en-US": "Anime streaming",
+                        "ja-JP": "アニメ配信"
+                    }
+                },
+                {
+                    "url": "https://www.shazam.com",
+                    "title": {
+                        "zh-CN": "Shazam",
+                        "en-US": "Shazam",
+                        "ja-JP": "Shazam"
+                    },
+                    "description": {
+                        "zh-CN": "音乐识别",
+                        "en-US": "Music recognition",
+                        "ja-JP": "音楽認識"
+                    }
+                },
+                {
+                    "url": "https://www.mixcloud.com",
+                    "title": {
+                        "zh-CN": "Mixcloud",
+                        "en-US": "Mixcloud",
+                        "ja-JP": "Mixcloud"
+                    },
+                    "description": {
+                        "zh-CN": "DJ音乐平台",
+                        "en-US": "DJ platform",
+                        "ja-JP": "DJプラットフォーム"
+                    }
+                },
+                {
+                    "url": "https://www.tidal.com",
+                    "title": {
+                        "zh-CN": "TIDAL",
+                        "en-US": "TIDAL",
+                        "ja-JP": "TIDAL"
+                    },
+                    "description": {
+                        "zh-CN": "高品质音乐",
+                        "en-US": "Hi-Fi music",
+                        "ja-JP": "ハイファイ音楽"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "news",
+            "name": {
+                "zh-CN": "新闻资讯",
+                "en-US": "News",
+                "ja-JP": "ニュース"
+            },
+            "sites": [
+                {
+                    "url": "https://news.google.com",
+                    "title": {
+                        "zh-CN": "Google 新闻",
+                        "en-US": "Google News",
+                        "ja-JP": "Google ニュース"
+                    },
+                    "description": {
+                        "zh-CN": "新闻聚合平台",
+                        "en-US": "News aggregator",
+                        "ja-JP": "ニュース集約"
+                    }
+                },
+                {
+                    "url": "https://www.reuters.com",
+                    "title": {
+                        "zh-CN": "路透社",
+                        "en-US": "Reuters",
+                        "ja-JP": "ロイター"
+                    },
+                    "description": {
+                        "zh-CN": "国际通讯社",
+                        "en-US": "News agency",
+                        "ja-JP": "通信社"
+                    }
+                },
+                {
+                    "url": "https://www.bbc.com/news",
+                    "title": {
+                        "zh-CN": "BBC新闻",
+                        "en-US": "BBC News",
+                        "ja-JP": "BBCニュース"
+                    },
+                    "description": {
+                        "zh-CN": "英国广播公司",
+                        "en-US": "British news",
+                        "ja-JP": "イギリスニュース"
+                    }
+                },
+                {
+                    "url": "https://www.cnn.com",
+                    "title": {
+                        "zh-CN": "CNN",
+                        "en-US": "CNN",
+                        "ja-JP": "CNN"
+                    },
+                    "description": {
+                        "zh-CN": "美国有线新闻网",
+                        "en-US": "Cable news",
+                        "ja-JP": "ケーブルニュース"
+                    }
+                },
+                {
+                    "url": "https://www.nytimes.com",
+                    "title": {
+                        "zh-CN": "纽约时报",
+                        "en-US": "NY Times",
+                        "ja-JP": "ニューヨークタイムズ"
+                    },
+                    "description": {
+                        "zh-CN": "美国主流媒体",
+                        "en-US": "US newspaper",
+                        "ja-JP": "米国新聞"
+                    }
+                },
+                {
+                    "url": "https://www.theguardian.com",
+                    "title": {
+                        "zh-CN": "卫报",
+                        "en-US": "The Guardian",
+                        "ja-JP": "ガーディアン"
+                    },
+                    "description": {
+                        "zh-CN": "英国知名报纸",
+                        "en-US": "UK newspaper",
+                        "ja-JP": "イギリス新聞"
+                    }
+                },
+                {
+                    "url": "https://www.wsj.com",
+                    "title": {
+                        "zh-CN": "华尔街日报",
+                        "en-US": "Wall Street Journal",
+                        "ja-JP": "ウォールストリートジャーナル"
+                    },
+                    "description": {
+                        "zh-CN": "财经新闻",
+                        "en-US": "Financial news",
+                        "ja-JP": "経済ニュース"
+                    }
+                },
+                {
+                    "url": "https://www.bloomberg.com",
+                    "title": {
+                        "zh-CN": "彭博社",
+                        "en-US": "Bloomberg",
+                        "ja-JP": "ブルームバーグ"
+                    },
+                    "description": {
+                        "zh-CN": "财经资讯",
+                        "en-US": "Business news",
+                        "ja-JP": "ビジネスニュース"
+                    }
+                },
+                {
+                    "url": "https://www.ft.com",
+                    "title": {
+                        "zh-CN": "金融时报",
+                        "en-US": "Financial Times",
+                        "ja-JP": "フィナンシャルタイムズ"
+                    },
+                    "description": {
+                        "zh-CN": "全球财经新闻",
+                        "en-US": "Global finance",
+                        "ja-JP": "国際金融"
+                    }
+                },
+                {
+                    "url": "https://apnews.com",
+                    "title": {
+                        "zh-CN": "美联社",
+                        "en-US": "AP News",
+                        "ja-JP": "AP通信"
+                    },
+                    "description": {
+                        "zh-CN": "新闻通讯社",
+                        "en-US": "Press agency",
+                        "ja-JP": "通信社"
+                    }
+                },
+                {
+                    "url": "https://www.aljazeera.com",
+                    "title": {
+                        "zh-CN": "半岛电视台",
+                        "en-US": "Al Jazeera",
+                        "ja-JP": "アルジャジーラ"
+                    },
+                    "description": {
+                        "zh-CN": "中东新闻网络",
+                        "en-US": "Middle East news",
+                        "ja-JP": "中東ニュース"
+                    }
+                },
+                {
+                    "url": "https://www.economist.com",
+                    "title": {
+                        "zh-CN": "经济学人",
+                        "en-US": "The Economist",
+                        "ja-JP": "エコノミスト"
+                    },
+                    "description": {
+                        "zh-CN": "国际新闻杂志",
+                        "en-US": "News magazine",
+                        "ja-JP": "ニュース雑誌"
+                    }
+                },
+                {
+                    "url": "https://www.forbes.com",
+                    "title": {
+                        "zh-CN": "福布斯",
+                        "en-US": "Forbes",
+                        "ja-JP": "フォーブス"
+                    },
+                    "description": {
+                        "zh-CN": "商业新闻",
+                        "en-US": "Business news",
+                        "ja-JP": "ビジネスニュース"
+                    }
+                },
+                {
+                    "url": "https://www.time.com",
+                    "title": {
+                        "zh-CN": "时代周刊",
+                        "en-US": "TIME",
+                        "ja-JP": "タイム"
+                    },
+                    "description": {
+                        "zh-CN": "新闻周刊",
+                        "en-US": "News magazine",
+                        "ja-JP": "ニュース週刊"
+                    }
+                },
+                {
+                    "url": "https://www.nbcnews.com",
+                    "title": {
+                        "zh-CN": "NBC新闻",
+                        "en-US": "NBC News",
+                        "ja-JP": "NBCニュース"
+                    },
+                    "description": {
+                        "zh-CN": "美国新闻网络",
+                        "en-US": "US news network",
+                        "ja-JP": "米国ニュース"
+                    }
+                },
+                {
+                    "url": "https://www.foxnews.com",
+                    "title": {
+                        "zh-CN": "福克斯新闻",
+                        "en-US": "Fox News",
+                        "ja-JP": "フォックスニュース"
+                    },
+                    "description": {
+                        "zh-CN": "美国新闻频道",
+                        "en-US": "US news channel",
+                        "ja-JP": "米国ニュース"
+                    }
+                },
+                {
+                    "url": "https://www.cbsnews.com",
+                    "title": {
+                        "zh-CN": "CBS新闻",
+                        "en-US": "CBS News",
+                        "ja-JP": "CBSニュース"
+                    },
+                    "description": {
+                        "zh-CN": "美国广播公司",
+                        "en-US": "US broadcaster",
+                        "ja-JP": "米国放送局"
+                    }
+                },
+                {
+                    "url": "https://www.washingtonpost.com",
+                    "title": {
+                        "zh-CN": "华盛顿邮报",
+                        "en-US": "Washington Post",
+                        "ja-JP": "ワシントンポスト"
+                    },
+                    "description": {
+                        "zh-CN": "美国政治新闻",
+                        "en-US": "US politics",
+                        "ja-JP": "米国政治"
+                    }
+                },
+                {
+                    "url": "https://www.usatoday.com",
+                    "title": {
+                        "zh-CN": "今日美国",
+                        "en-US": "USA Today",
+                        "ja-JP": "USAトゥデイ"
+                    },
+                    "description": {
+                        "zh-CN": "美国日报",
+                        "en-US": "US daily news",
+                        "ja-JP": "米国日刊"
+                    }
+                },
+                {
+                    "url": "https://www.politico.com",
+                    "title": {
+                        "zh-CN": "政客新闻",
+                        "en-US": "Politico",
+                        "ja-JP": "ポリティコ"
+                    },
+                    "description": {
+                        "zh-CN": "政治新闻网站",
+                        "en-US": "Political news",
+                        "ja-JP": "政治ニュース"
+                    }
+                }
+            ]
+        }
+    ]
+} 

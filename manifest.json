@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab Page",
+  "version": "1.0",
+  "description": "A customizable new tab page",
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "favicon",
+    "chrome://favicon/",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.google.com/",
+    "chrome://favicon/*",
+    "<all_urls>"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "pages/newtab.html"
+  },
+  "web_accessible_resources": [{
+    "resources": ["data/sites.json"],
+    "matches": ["<all_urls>"]
+  }],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Space"
+      },
+      "description": "打开导航页"
+    }
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+} 

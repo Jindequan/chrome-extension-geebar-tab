@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Focus Tab</title>
+    <link rel="stylesheet" href="newtab.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 顶部搜索区域 -->
+        <header class="search-area">
+            <div class="header-top">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="搜索..." />
+                    <div class="search-suggestions"></div>
+                </div>
+                <div class="language-selector">
+                    <div class="current-lang">
+                        <button class="current-lang-btn" aria-label="切换语言">
+                            <span class="lang-text"></span>
+                            <span class="arrow">▼</span>
+                        </button>
+                    </div>
+                    <div class="lang-dropdown">
+                        <button data-lang="zh">中文</button>
+                        <button data-lang="en">English</button>
+                        <button data-lang="ja">日本語</button>
+                    </div>
+                </div>
+            </div>
+            <div class="search-modes">
+
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- 左侧功能区 -->
+            <aside class="widgets-sidebar">
+                <div class="widgets-container">
+                    <!-- 小组件将在这里动态加载 -->
+                </div>
+            </aside>
+
+            <!-- 中间内容区 -->
+            <main class="content-area">
+                <div class="content-main">
+                    <div class="content-sites">
+                        <!-- 站点内容将在这里动态加载 -->
+                    </div>
+                </div>
+                <div class="content-footer">
+                    <div class="status-bar">
+                        <span id="copyright"></span>
+                    </div>
+                </div>
+            </main>
+
+            <!-- 右侧书签栏 -->
+            <aside class="bookmarks-sidebar">
+                <div class="bookmarks-tree">
+                    <!-- 书签树将在这里动态加载 -->
+                </div>
+            </aside>
+        </div>
+    </div>
+    <script src="newtab.js" type="module"></script>
+</body>
+</html> 

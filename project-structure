@@ -1,0 +1,16 @@
+tab-navigator/
+├── manifest.json
+├── background.js
+├── popup/
+│   ├── popup.html
+│   ├── popup.css
+│   └── popup.js
+├── pages/
+│   ├── newtab.html
+│   ├── newtab.css
+│   └── newtab.js
+└── components/
+    ├── search/
+    ├── bookmarks/
+    ├── widgets/
+    └── common/ 
