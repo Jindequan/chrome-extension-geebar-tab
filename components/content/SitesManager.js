@@ -1,8 +1,9 @@
+import i18nManager from '../common/i18n.js';
+
 export class SitesManager {
-    constructor(i18n) {
+    constructor() {
         this.sites = null;
         this.pinnedSites = [];
-        this.i18n = i18n;
         this.loadPinnedSites();
         this.iconCache = new Map();
         this.loadIconCache();
@@ -80,26 +81,25 @@ export class SitesManager {
         
         const results = [];
         const lowerQuery = query.toLowerCase();
-        const currentLocale = this.i18n.getLocale();
         
         this.sites.categories.forEach(category => {
-            const categoryName = category.name[currentLocale] || category.name['zh-CN'];
-            const isCategoryMatch = categoryName.toLowerCase().includes(lowerQuery) || 
-                                  category.id.toLowerCase().includes(lowerQuery);
+            const isCategoryMatch = Object.values(category.name).some(name => 
+                name.toLowerCase().includes(lowerQuery)
+            ) || category.id.toLowerCase().includes(lowerQuery);
             
             category.sites.forEach(site => {
-                const siteTitle = site.title[currentLocale] || site.title['zh-CN'];
-                const siteDesc = site.description[currentLocale] || site.description['zh-CN'];
+                const isTitleMatch = Object.values(site.title).some(title => 
+                    title.toLowerCase().includes(lowerQuery)
+                );
+                const isDescMatch = Object.values(site.description).some(desc => 
+                    desc && desc.toLowerCase().includes(lowerQuery)
+                );
+                const isUrlMatch = site.url.toLowerCase().includes(lowerQuery);
                 
-                if (isCategoryMatch ||
-                    siteTitle.toLowerCase().includes(lowerQuery) ||
-                    siteDesc.toLowerCase().includes(lowerQuery) ||
-                    site.url.toLowerCase().includes(lowerQuery)) {
+                if (isCategoryMatch || isTitleMatch || isDescMatch || isUrlMatch) {
                     results.push({
                         ...site,
-                        title: siteTitle,
-                        description: siteDesc,
-                        category: categoryName
+                        category: Object.values(category.name)[0]
                     });
                 }
             });

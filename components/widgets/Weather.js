@@ -170,7 +170,7 @@ export class WeatherWidget {
                 <h4>${i18nManager.t('widgets.weather.changeLocation')}</h4>
                 <div class="location-search">
                     <input type="text" placeholder="${i18nManager.t('widgets.weather.searchPlaceholder')}" />
-                    <div class="search-results"></div>
+                    <div class="search-results" style="display: none;"></div>
                 </div>
                 <div class="dialog-buttons">
                     <button class="cancel">${i18nManager.t('dialog.cancel')}</button>
@@ -190,16 +190,34 @@ export class WeatherWidget {
             const query = input.value.trim();
             
             if (query.length >= 2) {
-                searchTimeout = setTimeout(() => {
-                    this.searchLocation(query).then(locations => {
-                        results.innerHTML = locations.map(loc => `
-                            <div class="location-item" data-lat="${loc.lat}" data-lon="${loc.lon}">
-                                ${loc.name}, ${loc.country}
-                            </div>
-                        `).join('');
-                    });
+                results.style.display = 'block';
+                results.innerHTML = `<div class="searching">${i18nManager.t('widgets.weather.searching')}</div>`;
+                
+                searchTimeout = setTimeout(async () => {
+                    try {
+                        const locations = await this.searchLocation(query);
+                        if (locations.length === 0) {
+                            results.innerHTML = `<div class="no-results">${i18nManager.t('widgets.weather.noResults')}</div>`;
+                            return;
+                        }
+                        
+                        results.innerHTML = locations.map(loc => {
+                            const name = loc.local_names?.[i18nManager.currentLang] || loc.name;
+                            const state = loc.state ? `, ${loc.state}` : '';
+                            const country = loc.country ? `, ${loc.country}` : '';
+                            return `
+                                <div class="location-item" data-lat="${loc.lat}" data-lon="${loc.lon}" data-name="${name}">
+                                    ${name}${state}${country}
+                                </div>
+                            `;
+                        }).join('');
+                    } catch (error) {
+                        console.error('Error searching locations:', error);
+                        results.innerHTML = `<div class="error-message">${i18nManager.t('widgets.weather.searchError')}</div>`;
+                    }
                 }, 500);
             } else {
+                results.style.display = 'none';
                 results.innerHTML = '';
             }
         });
@@ -209,7 +227,7 @@ export class WeatherWidget {
             if (item) {
                 const lat = parseFloat(item.dataset.lat);
                 const lon = parseFloat(item.dataset.lon);
-                const city = item.textContent.split(',')[0];
+                const city = item.dataset.name;
                 
                 this.saveLocation({ lat, lon, city });
                 await this.loadWeatherData();
@@ -221,16 +239,32 @@ export class WeatherWidget {
             dialog.remove();
         });
 
+        // 点击对话框外部关闭
+        dialog.addEventListener('click', (e) => {
+            if (e.target === dialog) {
+                dialog.remove();
+            }
+        });
+
         input.focus();
     }
 
     async searchLocation(query) {
-        const url = `http://api.openweathermap.org/geo/1.0/direct?q=${encodeURIComponent(query)}&limit=5&appid=${this.apiKey}`;
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error('Location search failed');
+        const url = `https://api.openweathermap.org/geo/1.0/direct?q=${encodeURIComponent(query)}&limit=5&appid=${this.apiKey}`;
+        try {
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error('Location search failed');
+            }
+            const results = await response.json();
+            if (!results || results.length === 0) {
+                return [];
+            }
+            return results;
+        } catch (error) {
+            console.error('Location search failed:', error);
+            return [];
         }
-        return await response.json();
     }
 
     showLoading() {

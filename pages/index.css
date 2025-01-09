@@ -1653,7 +1653,7 @@ body {
     top: 100%;
     left: 0;
     right: 0;
-    background-color: var(--bg-secondary);
+    background: var(--bg-secondary);
     border: 1px solid var(--border-color);
     border-radius: 8px;
     margin-top: 4px;
@@ -1663,6 +1663,39 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.suggestion-item {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.suggestion-item:hover {
+    background: var(--bg-primary);
+}
+
+.suggestion-favicon {
+    width: 16px;
+    height: 16px;
+}
+
+.suggestion-title {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.suggestion-url {
+    color: #666;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
 .suggestion {
     display: flex;
     align-items: center;
@@ -1671,34 +1704,7 @@ body {
     transition: background-color 0.2s;
 }
 
-.suggestion:hover,
-.suggestion.selected {
-    background-color: var(--hover-bg);
-}
 
-.suggestion img {
-    width: 16px;
-    height: 16px;
-    margin-right: 12px;
-    object-fit: contain;
-}
-
-.suggestion-text {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.suggestion-title {
-    color: var(--text-primary);
-    font-size: 14px;
-    margin-bottom: 2px;
-}
-
-.suggestion-subtitle {
-    color: var(--text-secondary);
-    font-size: 12px;
-}
 
 /* 修复内容区域布局 */
 .main-content {
@@ -1789,15 +1795,11 @@ body {
 }
 
 .search-results {
-    position: absolute;
-    top: calc(100% + 8px);
-    left: 0;
-    right: 0;
+    position: relative;
     background: var(--bg-secondary);
     border: 1px solid var(--border-color);
     border-radius: 8px;
     max-height: 400px;
-    overflow-y: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     display: none;
@@ -2316,13 +2318,6 @@ body {
     outline: none;
     border-color: var(--accent-color);
     box-shadow: 0 0 0 4px rgba(152, 195, 121, 0.1);
-}
-
-.search-results {
-    max-height: 240px;
-    overflow-y: auto;
-    margin: 0 -16px;
-    padding: 0 16px;
 }
 
 .location-item {
